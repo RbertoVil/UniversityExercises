@@ -1,0 +1,16 @@
+Clave	,	Nombre:		,	Semestre:	,	Grupo:		,	Edad:
+1	,	Laura		,	10		,	2		,	23
+2	,	Antonio		,	7		,	1		,	18
+3	,	Luisa		,	4		,	3		,	17
+4	,	Roberto		,	3		,	7		,	24
+5	,	Sabrina		,	7		,	4		,	22
+6	,	Robert		,	9		,	5		,	19
+7	,	Alfredo		,	10		,	2		,	19
+8	,	Carmen		,	1		,	5		,	19
+9	,	Pedro		,	2		,	2		,	17
+10	,	Yosemar		,	1		,	7		,	18
+11	,	Rene		,	1		,	6		,	19
+12	,	Jose		,	6		,	5		,	24
+13	,	Ana		,	1		,	2		,	20
+14	,	Sofia		,	2		,	3		,	17
+15	,	Victor		,	10		,	2		,	19
