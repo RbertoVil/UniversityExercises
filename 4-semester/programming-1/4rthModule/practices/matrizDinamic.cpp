@@ -17,7 +17,7 @@ int main() {
 
     deque <float> matriz (rows * columns);
 
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 0; i < maxRows; i++) {
         // Este bucle controlará el número de filas.
         switch (contador) {
             // Dependiendo del número de fila, el numero será
@@ -43,29 +43,22 @@ int main() {
                 multiplo = 1.5;
                 break;
         }
-        for (int f = 1; f <= 6; f++) {
+        for (int f = 0; f < maxColumns; f++) {
             // Este bucle controlará el numero de columnas.
+            matriz.resize(rows * columns);
             numero = numero * multiplo;
 
-            if (contador == 1) {
-                posicionFilas = 0;
+            if (contador == 1 && f < (maxColumns - 1)) {
+                columns += 1;
             }
-            if (f == 1) {
-                // Si esla primera columna;
-                posicionColumnas = 0;
-            }
-            else {
-                // Si no es la primera columna
-                posicionColumnas += 1;
-                if (posicionColumnas >= *columnas) {
-                    *columnas += 1;
-                }
-            }
-            matriz[posicionFilas][posicionColumnas] = numero;
+
+            matriz[posNumber] = numero;
+            posNumber += 1;
             cout << " | " << numero << " | ";
         }
-        posicionFilas += 1;
-        *filas += 1;
+        if (i < (maxRows - 1)) {
+            rows += 1;
+        }
         contador++;
         cout << endl;
     }
