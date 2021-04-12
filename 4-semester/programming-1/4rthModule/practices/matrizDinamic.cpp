@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <deque>
 
 using namespace std;
 
@@ -14,13 +15,7 @@ int main() {
     int posNumber = 0;
     float numero, multiplo;
 
-    //filas = &tamanoMatriz[0];
-    //columnas = &tamanoMatriz[1];
-
-    filas = &fil;
-    columnas = &col;
-
-    float matriz[*filas][*columnas];
+    deque <float> matriz (rows * columns);
 
     for (int i = 1; i <= 5; i++) {
         // Este bucle controlará el número de filas.
