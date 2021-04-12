@@ -9,7 +9,7 @@ int main() {
     int columns = 1;
 
     int maxColumns = 7;
-    int maxRows = 5
+    int maxRows = 5;
 
     int contador = 1;
     int posNumber = 0;
