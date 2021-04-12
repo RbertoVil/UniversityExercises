@@ -91,3 +91,12 @@ int main() {
     }
     return(0);
 }
+
+// Información interesante para echar un vistazo y aprender.
+// Read: https://stackoverflow.com/questions/4029870/how-to-create-a-dynamic-array-of-integers
+// https://www.youtube.com/watch?v=i7cgXSfNhAQ
+// https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new
+// https://stackoverflow.com/questions/29375797/copy-2d-array-using-memcpy/29375830#29375830
+
+
+// https://stackoverflow.com/questions/36142627/c-push-back-2d-deque
