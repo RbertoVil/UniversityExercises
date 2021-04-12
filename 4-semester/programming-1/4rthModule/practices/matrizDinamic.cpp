@@ -4,14 +4,14 @@
 using namespace std;
 
 int main() {
-    //int tamanoMatriz[2] = {1, 1};
-    
-    int fil = 1;
-    int col = 1;
+    int rows = 1;
+    int columns = 1;
 
-    int posicionFilas, posicionColumnas;
+    int maxColumns = 7;
+    int maxRows = 5
+
     int contador = 1;
-    int *filas, *columnas;
+    int posNumber = 0;
     float numero, multiplo;
 
     //filas = &tamanoMatriz[0];
