@@ -63,18 +63,20 @@ int main() {
         cout << endl;
     }
 
-    cout << "\nEl numero de filas es: " << *filas << endl;
-    cout << "\nEl numero de columnas es: " << *columnas <<endl;
+    cout << "\nEl numero de filas es: " << rows << endl;
+    cout << "\nEl numero de columnas es: " << columns <<endl;
+    cout << "\nEl tamano de nuestro deque es: " << matriz.size() << "\n\n";
 
-    // Algo anda mal, no almacena bien los elementos.
+    // Mostrar mis datos en forma de matriz.
 
-    for (int i = 0; i < *filas; i++) {
+    for (int i = 0; i < rows; i++) {
         // Para mostrar las filas.
-        for (int f = 0; f < *columnas; f++) {
-            cout << " | " << matriz[i][f] << " | ";
+        for (int f = 0; f < columns; f++) {
+            cout << " | " << matriz[i * columns + f] << " | ";
         }
         cout << endl;
     }
+
 
     // Para evitar que el programa se cierre solo.
     // Como alternativa a system("pause").
