@@ -62,6 +62,8 @@ int main() {
                 columns += 1;
             }
 
+            // Guardamos el numero en nuestro deque y aumentamos la variable
+            // auxiliar para almacenar numeros.
             matriz[posNumber] = numero;
             posNumber += 1;
             cout << " | " << numero << " | ";
