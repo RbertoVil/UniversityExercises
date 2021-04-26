@@ -16,6 +16,9 @@ int main() {
 
     int contador = 1;
     int posNumber = 0;
+
+    // numero y multiplo es para crear números cualesquiera para rellenar
+    // nuestra falsa matriz.
     float numero, multiplo;
 
     deque <float> matriz (rows * columns);
