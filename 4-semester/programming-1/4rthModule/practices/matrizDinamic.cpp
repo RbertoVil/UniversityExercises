@@ -5,9 +5,12 @@
 using namespace std;
 
 int main() {
+    // Este algoritmo creará una falsa matriz n * m utilizando un único deque.
+    // Inicializamos las filas y columnas en 1.
     int rows = 1;
     int columns = 1;
 
+    // Establecemos el máximo de filas y columnas.
     int maxColumns = 7;
     int maxRows = 5;
 
