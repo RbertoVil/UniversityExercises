@@ -57,6 +57,8 @@ int main() {
             numero = numero * multiplo;
 
             if (contador == 1 && f < (maxColumns - 1)) {
+                // Mientas que es la primera fila y el f es menor al numero máximo de
+                // columnas, aumentamos el numero de columnas.
                 columns += 1;
             }
 
