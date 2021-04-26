@@ -51,6 +51,8 @@ int main() {
         }
         for (int f = 0; f < maxColumns; f++) {
             // Este bucle controlará el numero de columnas.
+            // Aumentamos el tamaño de nuestro deque para ocupar lo suficiente
+            // para tener todos los datos de nuestra matriz.
             matriz.resize(rows * columns);
             numero = numero * multiplo;
 
