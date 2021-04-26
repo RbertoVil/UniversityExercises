@@ -84,8 +84,12 @@ int main() {
     // Mostrar mis datos en forma de matriz.
 
     for (int i = 0; i < rows; i++) {
-        // Para mostrar las filas.
+        // Para mostrar los datos vamos a valernos de (i * columns + f) para
+        // simular una matriz con nuestro simple deque. La variable i va a
+        // representar la posición actual en las filas de nuestra matriz.
         for (int f = 0; f < columns; f++) {
+            // La variable f representa la posición actual en las columnas de
+            // nuestra matriz.
             cout << " | " << matriz[i * columns + f] << " | ";
         }
         cout << endl;
