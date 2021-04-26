@@ -69,6 +69,8 @@ int main() {
             cout << " | " << numero << " | ";
         }
         if (i < (maxRows - 1)) {
+            // Mientras que i sea menor al número máximo de filas aumentamos el
+            // número de filas.
             rows += 1;
         }
         contador++;
