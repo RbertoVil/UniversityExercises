@@ -7,8 +7,9 @@ def main():
     dia = 0
     while (dia < 2):
         for i in range(5):
+            time.sleep(60)
+
             with open("file.csv", mode='a') as writer:
-                time.sleep(60)
 
                 today = datetime.datetime.now()
                 fecha = f"{ today.day } - { today.month } - { today.year }"
