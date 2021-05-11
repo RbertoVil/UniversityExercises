@@ -47,7 +47,7 @@ def main():
         dia += 1
         # Aumentamos el contador de días.
 
-    print(f"Se ha finalizado el conteo, en total pasaron { contador } minutos.")
+    print(f"\nSe ha finalizado el conteo correctamente.")
 
 
 
