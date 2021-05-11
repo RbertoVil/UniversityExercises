@@ -17,7 +17,6 @@ def main():
                 hora = f"{ today.hour }:{ today.minute }"
 
                 contador += 1
-                print(f"Dia { dia }. Lleva { contador } minutos. Durante fecha: { fecha } y hora: { hora }", file=writer)
         
         dia += 1
 
