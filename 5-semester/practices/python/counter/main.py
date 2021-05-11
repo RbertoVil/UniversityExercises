@@ -18,6 +18,8 @@ def main():
 
                 contador += 1
                 row = [dia, fecha, hora, contador]
+
+                csvWriter.writerow(row)
         
         dia += 1
 
