@@ -5,12 +5,22 @@ import csv
 def main():
     contador = 0
     dia = 0
-    while (dia < 2):
-        for i in range(5):
-            time.sleep(60)
+    while (dia < 3):
+
+        if contador == 0:
+            # Si es la primera iteración añade la cabecera del archivo.
+            with open("file.csv", mode='x', newline='') as writer:
+                csvWriter = csv.writer(writer, delimiter=',', quotechar='"',
+                quoting=csv.QUOTE_ALL)
+
+                csvWriter.writerow(['dia','fecha','hora','contador (aumenta cada 2 hrs)'])
+
+        for i in range(24):
+            time.sleep(7200)
 
             with open("file.csv", mode='a', newline='') as writer:
-                csvWriter = csv.writer(writer, dialect='excel')
+                csvWriter = csv.writer(writer, delimiter=',', quotechar='"',
+                quoting=csv.QUOTE_ALL)
 
                 today = datetime.datetime.now()
                 fecha = f"{ today.day } - { today.month } - { today.year }"
