@@ -10,6 +10,7 @@ def main():
             time.sleep(60)
 
             with open("file.csv", mode='a', newline='') as writer:
+                csvWriter = csv.writer(writer, dialect='excel')
 
                 today = datetime.datetime.now()
                 fecha = f"{ today.day } - { today.month } - { today.year }"
