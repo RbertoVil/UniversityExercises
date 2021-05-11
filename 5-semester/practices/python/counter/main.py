@@ -49,8 +49,5 @@ def main():
 
     print(f"\nSe ha finalizado el conteo correctamente.")
 
-
-
-
 if __name__ == '__main__':
     main()
