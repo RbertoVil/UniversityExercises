@@ -17,6 +17,7 @@ def main():
                 hora = f"{ today.hour }:{ today.minute }"
 
                 contador += 1
+                row = [dia, fecha, hora, contador]
         
         dia += 1
 
