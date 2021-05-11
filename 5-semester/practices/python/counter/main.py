@@ -9,7 +9,7 @@ def main():
         for i in range(5):
             time.sleep(60)
 
-            with open("file.csv", mode='a') as writer:
+            with open("file.csv", mode='a', newline='') as writer:
 
                 today = datetime.datetime.now()
                 fecha = f"{ today.day } - { today.month } - { today.year }"
